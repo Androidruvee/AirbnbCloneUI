@@ -288,7 +288,7 @@ Terms.</string>
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="D8y-Zg-P0n">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="PsQ-B7-Mx1">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create a password?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUt-au-CIw">
@@ -357,18 +357,18 @@ characters long. </string>
                             <constraint firstItem="mwP-Bk-Hq7" firstAttribute="top" secondItem="hGc-h1-FgL" secondAttribute="top" constant="270" id="9Gm-yJ-NX1"/>
                             <constraint firstItem="pu6-uP-wJu" firstAttribute="trailing" secondItem="lZ1-rC-yhv" secondAttribute="trailing" id="FEo-eo-gPV"/>
                             <constraint firstItem="fbN-we-UDv" firstAttribute="top" secondItem="fUt-au-CIw" secondAttribute="bottom" constant="32" id="Jko-yi-9tk"/>
+                            <constraint firstAttribute="trailing" secondItem="PsQ-B7-Mx1" secondAttribute="trailing" id="PO1-NK-nPc"/>
                             <constraint firstItem="fUt-au-CIw" firstAttribute="top" secondItem="SUO-8H-hfX" secondAttribute="bottom" constant="36" id="QUC-uF-bQX"/>
-                            <constraint firstAttribute="trailing" secondItem="D8y-Zg-P0n" secondAttribute="trailing" id="Qyj-ll-UKW"/>
-                            <constraint firstItem="D8y-Zg-P0n" firstAttribute="leading" secondItem="hGc-h1-FgL" secondAttribute="leading" id="Ts8-1W-OaZ"/>
                             <constraint firstItem="fUt-au-CIw" firstAttribute="leading" secondItem="mwP-Bk-Hq7" secondAttribute="leading" id="U2Y-kZ-L6R"/>
                             <constraint firstItem="AYq-UJ-7rr" firstAttribute="top" secondItem="mwP-Bk-Hq7" secondAttribute="bottom" constant="32" id="V1a-Gi-aM1"/>
+                            <constraint firstAttribute="bottom" secondItem="PsQ-B7-Mx1" secondAttribute="bottom" id="WzQ-m0-Ewq"/>
                             <constraint firstItem="fUt-au-CIw" firstAttribute="leading" secondItem="fbN-we-UDv" secondAttribute="leading" id="dEE-Hd-6W1"/>
                             <constraint firstItem="mwP-Bk-Hq7" firstAttribute="centerY" secondItem="pu6-uP-wJu" secondAttribute="centerY" id="el7-zs-pXY"/>
                             <constraint firstItem="SUO-8H-hfX" firstAttribute="leading" secondItem="IM5-lu-T4n" secondAttribute="leading" constant="31" id="kdw-78-sBQ"/>
                             <constraint firstItem="IM5-lu-T4n" firstAttribute="bottom" secondItem="lZ1-rC-yhv" secondAttribute="bottom" constant="42" id="mpK-ex-dET"/>
-                            <constraint firstAttribute="bottom" secondItem="D8y-Zg-P0n" secondAttribute="bottom" id="oKg-M1-bFH"/>
-                            <constraint firstItem="D8y-Zg-P0n" firstAttribute="top" secondItem="hGc-h1-FgL" secondAttribute="top" id="qKq-yg-awP"/>
+                            <constraint firstItem="PsQ-B7-Mx1" firstAttribute="top" secondItem="hGc-h1-FgL" secondAttribute="top" id="nPv-Yy-KvL"/>
                             <constraint firstItem="fUt-au-CIw" firstAttribute="leading" secondItem="IM5-lu-T4n" secondAttribute="leading" constant="42" id="qTy-Gj-QaK"/>
+                            <constraint firstItem="PsQ-B7-Mx1" firstAttribute="leading" secondItem="hGc-h1-FgL" secondAttribute="leading" id="s8S-DR-Zdh"/>
                             <constraint firstItem="IM5-lu-T4n" firstAttribute="trailing" secondItem="pu6-uP-wJu" secondAttribute="trailing" constant="42" id="zwo-hK-yIU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="IM5-lu-T4n"/>
@@ -379,10 +379,10 @@ characters long. </string>
             </objects>
             <point key="canvasLocation" x="2544.9275362318845" y="132.58928571428572"/>
         </scene>
-        <!--View Controller-->
+        <!--Birthday-->
         <scene sceneID="Xah-F7-LB1">
             <objects>
-                <viewController id="JfV-xA-0jq" sceneMemberID="viewController">
+                <viewController title="Birthday" id="JfV-xA-0jq" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cIW-Y1-Uwf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
